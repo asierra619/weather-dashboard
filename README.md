@@ -2,42 +2,56 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+### THIS PROJECT IS UNFINISHED
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The Weather Dashboard allows one to enter a city name and be presented with the current weather forecast, as well as the predictions for the upcoming 5 days.
 
-## Installation
+## Table of Contents
 
-N/A
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Credits](#credits)
+
+## User Story
+
+AS A traveler<br />
+I WANT to see the weather outlook for multiple cities<br />
+SO THAT I can plan a trip accordingly
+
+## Acceptance Criteria
+
+Acceptance Criteria-
+GIVEN a weather dashboard with form inputs<br />
+WHEN I search for a city<br />
+THEN I am presented with current and future conditions for that city and that city is added to the search history<br />
+WHEN I view current weather conditions for that city<br />
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed<br />
+WHEN I view future weather conditions for that city<br />
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity<br />
+WHEN I click on a city in the search history<br />
+THEN I am again presented with current and future conditions for that city
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Live Url - https://asierra619.github.io/weather-dashboard/<br />
 
-![Screenshot of the weather dashboard](./assets/images/     )
+GitHub Repo - https://github.com/asierra619/weather-dashboard<br />
 
-## Credits
+![screenshot of current dashboard](./assets/images/weather-dashboard-screenshot.png)
 
-List your collaborators, if any, with links to their GitHub profiles.
+## Technologies Used
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+HTML, JS, CSS, Bootstrap
 
 ## License
 
-N/A
+MIT
 
-Acceptance Criteria-
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+## Credits
+
+Thank You to the Following -<br />
+Sam Pai - Calendly Tutor
